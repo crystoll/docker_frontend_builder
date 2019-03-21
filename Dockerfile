@@ -1,8 +1,7 @@
 FROM node:10 as builder
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
-#COPY package.json /usr/src/app
-COPY . /usr/src/app
+COPY my-app /usr/src/app
 RUN npm install
 RUN npm run build
 
