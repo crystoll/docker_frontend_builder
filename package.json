@@ -1,0 +1,11 @@
+{
+  "name": "node_builder",
+  "version": "1.0.0",
+  "description": "Yes description",
+  "scripts": {
+  	"build": "mkdir build && cp ./index.html ./build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
